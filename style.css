@@ -1,0 +1,113 @@
+/* REINICIANDO EL CSS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CSS ENCABEZADO*/
+.encabezado{
+    background-color: hsl(214deg 86% 80%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 75px;
+    color: white;
+}
+.ciudades{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-ciudad{
+    border: none;
+    background-color: hsl(214deg 86% 80%);
+    color: white;
+    font-size: 20px;
+}
+/* CSS CONTENIDO*/
+.contenido{
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.titulo-contenido, .select-temp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.select-temp{
+    width: 200px;
+}
+.cuadros-tiempo{
+    display: flex;
+    justify-content: space-between;
+}
+.dias-tiempo1, .dias-tiempo2 ,.dias-tiempo3, .dias-tiempo4{
+    background-color: hsl(0deg 0% 93%);
+    width: 25%;
+    /* margin: 10px; */
+}
+.dias-tiempo1, .dias-tiempo2, .dias-tiempo3{
+    margin-right: 10px;
+}
+.img-clima{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.dias-tiempo1, .dias-tiempo2, .dias-tiempo3, .dias-tiempo4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    margin-top: 25px;
+}
+.num-grados{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 10px;
+}
+/* CSS COOKIE*/
+.cookie{
+    max-width: 720px;
+    margin: 0 auto;
+    border: solid 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    left: 265px;
+    bottom: 30px;
+}
+.img-cookie, .texto-cookie{
+    margin-right: 30px;
+}
+.btn-cookie button{
+    width: 55px;
+    background-color: #9fc5f8;
+    box-shadow: 5px 5px 5px;
+}
+.texto-cookie h3{
+    margin-bottom: 15px;
+}
+.img-cookie img{
+    width: 50px;
+    height: 50px;
+}
+.esconder{
+    display: none;
+}
+.rojo{
+    color: #cf2a27;
+    font-weight: bold;
+    font-size: 20px;
+}
+.azul{
+    color: #2b78e4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
